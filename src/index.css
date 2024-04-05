@@ -1,0 +1,58 @@
+.nav{
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+}
+h1{
+    text-align: center
+}
+.itemsList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.pricearea{
+    display: flex;
+}
+.no-gutters{
+    justify-content: center;
+}
+.adjustCenterBox{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;    flex-direction: column;
+
+}
+.removeStyleP{
+margin-top: none
+}
+.totalprice{
+    display: flex;
+    flex-direction: column;
+}
+.SUBTOTAL{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.card{
+    height: 100%;
+}
+.buttonAlign{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (max-width: 576px) { 
+    .itemsList{
+        justify-content: center;
+    }
+}
